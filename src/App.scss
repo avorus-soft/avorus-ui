@@ -1,0 +1,31 @@
+@import '@ibm/plex/css/ibm-plex.css';
+@import 'react-mosaic-component/react-mosaic-component.css';
+@import '@blueprintjs/core/lib/css/blueprint.css';
+@import '@blueprintjs/icons/lib/css/blueprint-icons.css';
+@import './assets/styles/calendar.scss';
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: min-content auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mosaic-window.additional-controls-open .mosaic-window-additional-actions-bar,
+.mosaic-preview.additional-controls-open .mosaic-window-additional-actions-bar {
+  height: 39px;
+  background-color: 'rgba(18, 18, 18, 0.38)';
+}
