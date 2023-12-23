@@ -2,4 +2,4 @@
 build
 public/*svg
 public/*png
-src/config/config.dev.ts
+node_modules

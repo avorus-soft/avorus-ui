@@ -6,6 +6,6 @@
  * https://reactnative.dev/docs/security#storing-sensitive-info
  */
 export default {
-  API_HOST: // Enter the hostname of the Avorus API server here,
+  API_HOST: '' // Enter the hostname of the API server here,
 }
 
