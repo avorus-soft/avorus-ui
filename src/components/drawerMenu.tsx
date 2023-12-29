@@ -86,6 +86,7 @@ const DrawerMenu = ({ toolbarButtons, onClose }) => {
       <SettingsModal
         open={settingsIsOpen}
         onClose={() => setSettingsIsOpen(false)}
+        me={me}
       />
     </Box>
   )
